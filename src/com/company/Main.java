@@ -13,7 +13,7 @@ public class Main {
         Pesel peselValidator = new Pesel();
         peselValidator.check(pesel);
     peselValidator.sex(pesel);
-    peselValidator.dateBirth(pesel);
+    peselValidator.dateOfBirth(pesel);
     }
 
 
