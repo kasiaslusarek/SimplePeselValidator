@@ -3,6 +3,7 @@ package com.company;
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class Pesel {
     int pesel_leght = 11;
     boolean women = true;
@@ -75,8 +76,9 @@ public class Pesel {
         }
 
 
+        System.out.printf("Yours brith's date is: %02d.%02d.%02d ",day ,month ,year);
 
-        System.out.println("Yours brith's date is: " + day+"."+month+"."+year);
+
     }
 }
 
